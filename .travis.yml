@@ -6,3 +6,5 @@ dist: trusty
 script: 
   - dotnet restore
   - dotnet build
+deploy:
+  provider: azure_web_apps
