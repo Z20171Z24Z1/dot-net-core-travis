@@ -23,4 +23,4 @@ on_finish :
   # any cleanup in here
 deploy:
   - provider: Environment
-  - name: AzureDev1
+    name: AzureDev1
